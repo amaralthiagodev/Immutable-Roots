@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://b7ogkjow2ts8s"]
+
+[ext_resource type="Script" uid="uid://ch42k00ij1nm6" path="res://Creditos/creditos.gd" id="1"]
+[ext_resource type="AudioStream" uid="uid://jpgs7e37myr4" path="res://Menu/musica_menu.ogg" id="2_h7vm3"]
+[ext_resource type="VideoStream" uid="uid://bmkpd236k31tt" path="res://Menu/menu_animado.ogv" id="3_t2n6i"]
+
+[node name="Creditos" type="Control" unique_id=396087867]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+musica = ExtResource("2_h7vm3")
+video_fundo = ExtResource("3_t2n6i")
